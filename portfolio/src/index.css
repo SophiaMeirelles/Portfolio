@@ -1,0 +1,34 @@
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  
+    --roxo: #9132FF;
+    --preto: #0F0F0F;
+    --roxoEscuro: #453263;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ body{
+  background-color: var(--preto);
+ }
+ body::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--roxoEscuro);  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--roxo);   
+    border-radius: 20px;    
+  }

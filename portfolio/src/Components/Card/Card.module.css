@@ -1,0 +1,82 @@
+:root {
+    --roxo: #9132FF;
+    --preto: #0F0F0F;
+    --roxoEscuro: #4D3672;
+    --branco: #FFFFFF;
+  --shadow-color:#4D3672;
+  --gap: 10px;
+  --padding: 20px;
+  --border-radius: 8px;
+}
+.card {
+  width: 30vh;
+  height: 30vh;
+  color: var(--roxoEscuro);
+  border-radius: var(--border-radius);
+  border: solid 2px var(--roxoEscuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh;
+  transition: transform 0.3s ease;
+}
+svg path{
+  fill: var(--roxo);
+}
+.card:hover {
+  transform: translateY(-5px);
+  border: var(--roxo) 2px solid;
+}
+
+.card h3 {
+  color: var(--roxo);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card p {
+  color: var(--branco);
+  margin: 0;
+  text-align: left;
+  font-size: 1rem;
+
+}
+
+.card_footer {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_icones {
+  display: flex;
+  gap: var(--gap);
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.botao {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--border-radius);
+  background-color: var(--roxoEscuro);
+  color: var(--white);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao:hover {
+  background-color: var(--roxo);
+  transform: scale(1.1);
+}
+
+.botao:hover svg path {
+  fill: var(--branco); /* Aplica o fill no path do SVG ao passar o mouse no Link */
+}

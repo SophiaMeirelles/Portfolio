@@ -1,0 +1,28 @@
+.titulo2 {
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Urbanist";
+  font-weight: 200;
+  font-size: 35px;
+}
+.textos {
+  color: var(--branco);
+  font-family: "baloo-chettan", sans-serif;
+}
+.texto_grande {
+  font-size: 300px;
+  font-weight: bold;
+}
+
+.texto_vermelho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Urbanist";
+  font-weight: 200;
+  font-size: 30px;
+}

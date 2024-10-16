@@ -1,0 +1,29 @@
+h1{
+  font-size: 40px;
+  font-family: "urbanist", sans-serif;
+  font-weight: 200;
+  padding-bottom: 2vh;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  color: var(--branco);
+}
+p,a {
+  color: var(--branco);
+  font-family: "baloo-chettan", sans-serif;
+  font-size: 20px;
+  line-height: 4vh;
+}
+.techs {
+  width: 100%;
+  margin-top: 4vh;
+}
+.icones {
+  width: 100%;
+}
+
+.icones img {
+  height: 5vh;
+}

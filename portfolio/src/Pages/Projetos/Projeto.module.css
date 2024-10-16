@@ -1,0 +1,30 @@
+.projetos h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--branco);
+  margin-bottom: 2rem;
+}
+
+.lista {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+  padding: 0 15vh 5vh 15vh;
+}
+
+.lista-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--roxo);
+}
+
+.lista-item p {
+  font-size: 1rem;
+  color: var(--roxo);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
